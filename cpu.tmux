@@ -7,6 +7,7 @@ source "$CURRENT_DIR/scripts/helpers.sh"
 cpu_interpolation=(
   "\#{cpu_percentage}"
   "\#{cpu_icon}"
+  "\#{cpu_icon_6}"
   "\#{cpu_bg_color}"
   "\#{cpu_fg_color}"
   "\#{gpu_percentage}"
@@ -25,6 +26,7 @@ cpu_interpolation=(
 cpu_commands=(
   "#($CURRENT_DIR/scripts/cpu_percentage.sh)"
   "#($CURRENT_DIR/scripts/cpu_icon.sh)"
+  "#($CURRENT_DIR/scripts/cpu_icon_6.sh)"
   "#($CURRENT_DIR/scripts/cpu_bg_color.sh)"
   "#($CURRENT_DIR/scripts/cpu_fg_color.sh)"
   "#($CURRENT_DIR/scripts/gpu_percentage.sh)"
